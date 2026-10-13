@@ -1,0 +1,7 @@
+Source: https://huggingface.co/Xenova/all-MiniLM-L6-v2
+Revision: 751bff37182d3f1213fa05d7196b954e230abad9
+File: onnx/model_quantized.onnx
+SHA256: afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1
+Upstream model: sentence-transformers/all-MiniLM-L6-v2
+License: Apache-2.0 (upstream model card)
+SigmaDrive package 0.2.1 adds only ONNX ModelProto metadata_props distribution revision. Weights and graph are unchanged. This artifact validates delivery; inference/tokenizer provisioning is separate.
