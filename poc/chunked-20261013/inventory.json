@@ -1,0 +1,147 @@
+[
+  {
+    "Path": "README.txt",
+    "Size": 827,
+    "SHA256": "1ca86590b40aef533a0293ca40134b2613a4e416afd0b13d8b2158f1861d8810"
+  },
+  {
+    "Path": "chunks/sha256/00/008ba689e491f81c8f66302d49de2cfca0cd36b9af150205bea7c9fff9f2df6b.bin",
+    "Size": 4194304,
+    "SHA256": "008ba689e491f81c8f66302d49de2cfca0cd36b9af150205bea7c9fff9f2df6b"
+  },
+  {
+    "Path": "chunks/sha256/01/01c5f83a729b57b4fc3b092ba3d7eec7853a4189dd74e1baa3c58303cd2f035f.bin",
+    "Size": 4194304,
+    "SHA256": "01c5f83a729b57b4fc3b092ba3d7eec7853a4189dd74e1baa3c58303cd2f035f"
+  },
+  {
+    "Path": "chunks/sha256/0f/0f9e60caee13c184d33c7f7804a28c01d7bbc130f56672186defa7e231b3dc1a.bin",
+    "Size": 4194304,
+    "SHA256": "0f9e60caee13c184d33c7f7804a28c01d7bbc130f56672186defa7e231b3dc1a"
+  },
+  {
+    "Path": "chunks/sha256/15/159f1f59c6d39f4a3e15c0a571de6fc43402ef2c6fccd1b494851914da0d015d.bin",
+    "Size": 4194304,
+    "SHA256": "159f1f59c6d39f4a3e15c0a571de6fc43402ef2c6fccd1b494851914da0d015d"
+  },
+  {
+    "Path": "chunks/sha256/3d/3dbf85fe32c7c23a6233665bbd0024b5ccdb3cf292278eddc4506caf9213ea7c.bin",
+    "Size": 4194304,
+    "SHA256": "3dbf85fe32c7c23a6233665bbd0024b5ccdb3cf292278eddc4506caf9213ea7c"
+  },
+  {
+    "Path": "chunks/sha256/61/6183514292b8c383fdac00b1e178508418a0beb0a2e2f0c08835b46f7c779679.bin",
+    "Size": 4194304,
+    "SHA256": "6183514292b8c383fdac00b1e178508418a0beb0a2e2f0c08835b46f7c779679"
+  },
+  {
+    "Path": "chunks/sha256/88/88ad3a88fce3930eaa87e115e0269c6b214e1fe1f35cbab7e8fbbb37d88df4b2.bin",
+    "Size": 34,
+    "SHA256": "88ad3a88fce3930eaa87e115e0269c6b214e1fe1f35cbab7e8fbbb37d88df4b2"
+  },
+  {
+    "Path": "chunks/sha256/a1/a1595bf9bcc8358f5559fcc6cc6d74cf5c3beaafd36d3457ca77bdb45ca665ba.bin",
+    "Size": 4194304,
+    "SHA256": "a1595bf9bcc8358f5559fcc6cc6d74cf5c3beaafd36d3457ca77bdb45ca665ba"
+  },
+  {
+    "Path": "chunks/sha256/c2/c25a9b21d10c6d4ead8652c17471b39385dc27748029a6593c82b3900de3c22f.bin",
+    "Size": 2749440,
+    "SHA256": "c25a9b21d10c6d4ead8652c17471b39385dc27748029a6593c82b3900de3c22f"
+  },
+  {
+    "Path": "chunks/sha256/cc/cc1701701851066c44916c1d1d2ec93efaebe7f04a9f62c320cf00b07a9e1077.bin",
+    "Size": 4194304,
+    "SHA256": "cc1701701851066c44916c1d1d2ec93efaebe7f04a9f62c320cf00b07a9e1077"
+  },
+  {
+    "Path": "chunks/sha256/d2/d24f7d091009ea6868c35c0259b05ff7cafb84b7d85bd3ff70bf00bceff2e60b.bin",
+    "Size": 35,
+    "SHA256": "d24f7d091009ea6868c35c0259b05ff7cafb84b7d85bd3ff70bf00bceff2e60b"
+  },
+  {
+    "Path": "chunks/sha256/e2/e26227350f8e361b4ba9043fba2b21ed211b9ce6dd27a4e1878ef50e04a7b300.bin",
+    "Size": 4194304,
+    "SHA256": "e26227350f8e361b4ba9043fba2b21ed211b9ce6dd27a4e1878ef50e04a7b300"
+  },
+  {
+    "Path": "chunks/sha256/e8/e8f89d857503dbda35b9fed0ec7c2c633b21d28bd395791213b6ab62432ad01c.bin",
+    "Size": 4194304,
+    "SHA256": "e8f89d857503dbda35b9fed0ec7c2c633b21d28bd395791213b6ab62432ad01c"
+  },
+  {
+    "Path": "chunks/sha256/eb/eb822772b606067a4b2abccf487331c4552b0ba6f26ce8abd0cf41f99f99baf5.bin",
+    "Size": 34,
+    "SHA256": "eb822772b606067a4b2abccf487331c4552b0ba6f26ce8abd0cf41f99f99baf5"
+  },
+  {
+    "Path": "chunks/sha256/f5/f526c9d8f5307756980b682d35a95e8e8544c3a1bc46e24f2f55751daff6d9fc.bin",
+    "Size": 4194304,
+    "SHA256": "f526c9d8f5307756980b682d35a95e8e8544c3a1bc46e24f2f55751daff6d9fc"
+  },
+  {
+    "Path": "chunks/sha256/f5/f59d24961cd9f6a33d5a45473487fffb1c0f91dfe3f7b935c6644da296c5ed65.bin",
+    "Size": 4194304,
+    "SHA256": "f59d24961cd9f6a33d5a45473487fffb1c0f91dfe3f7b935c6644da296c5ed65"
+  },
+  {
+    "Path": "chunks/sha256/f8/f824aca3563a518ab9e0c5eb077f71e9d645ca90d704685293e65815c6eb6efe.bin",
+    "Size": 34,
+    "SHA256": "f824aca3563a518ab9e0c5eb077f71e9d645ca90d704685293e65815c6eb6efe"
+  },
+  {
+    "Path": "fixture-source/GO-LICENSE.txt",
+    "Size": 1453,
+    "SHA256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad"
+  },
+  {
+    "Path": "fixture-source/main.go",
+    "Size": 656,
+    "SHA256": "e3052639eded8a9cf8a15eeb47698e30d2681f5d261518dddc6f771fb70b8458"
+  },
+  {
+    "Path": "metadata/1.root.json",
+    "Size": 2318,
+    "SHA256": "532498acc3d88ca0ed8c5a24e867b2b2ceb674ec4ac7a8491a2cec1725ee8902"
+  },
+  {
+    "Path": "metadata/snapshot.json",
+    "Size": 379,
+    "SHA256": "64542bddb815c3d2b9c8b5c665ec8eb4deebeefc697058995630f24bf40441ea"
+  },
+  {
+    "Path": "metadata/targets.json",
+    "Size": 1214,
+    "SHA256": "9ec6e88792c3a4dcbd88044d9d8b710dc15529969aae53bf0c120149d4896f5b"
+  },
+  {
+    "Path": "metadata/timestamp.json",
+    "Size": 381,
+    "SHA256": "e66d637a14e4931b998f6934120a7b429acee8ce88d4d8c9cf52c773223363fa"
+  },
+  {
+    "Path": "packages/processor-poc/0.2.0/windows-amd64/manifest.json",
+    "Size": 1551,
+    "SHA256": "693de90670864cb678724b4e550ff27d0211d7b71d344b1d37e7330ec6ccb1f9"
+  },
+  {
+    "Path": "packages/processor-poc/0.2.1/windows-amd64/manifest.json",
+    "Size": 1551,
+    "SHA256": "7cd505b1d7b95690341788cdde2a383845ea0b7829aafaedb3f7cbeadbbce0ce"
+  },
+  {
+    "Path": "packages/processor-poc/0.2.2/windows-amd64/manifest.json",
+    "Size": 1551,
+    "SHA256": "a38dc0895a23ff7b3799f788646fa106cc4e4368606b30026dddbd7cc2c68081"
+  },
+  {
+    "Path": "packages/processor-poc/0.2.3/windows-amd64/manifest.json",
+    "Size": 1551,
+    "SHA256": "e8e3a9fba97bccee3e52e22156efc0c1509c6a2746baf844cb3036e431422556"
+  },
+  {
+    "Path": "root.json",
+    "Size": 2318,
+    "SHA256": "532498acc3d88ca0ed8c5a24e867b2b2ceb674ec4ac7a8491a2cec1725ee8902"
+  }
+]
