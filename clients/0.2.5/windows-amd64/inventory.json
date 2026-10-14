@@ -29,5 +29,17 @@
     ]
   },
   "length": 17691512,
-  "sha256": "6350d1345c92b1f1625d0c7e53e2bf93cbcb82355a9c9390380f8c00f2d72509"
+  "sha256": "6350d1345c92b1f1625d0c7e53e2bf93cbcb82355a9c9390380f8c00f2d72509",
+  "downloader": {
+    "filename": "SigmaDrive-Download-0.2.5.exe",
+    "length": 10991616,
+    "sha256": "dfaeeaf9ec916e06f0c6b64b66bbf63dedfc03f95075ba554f6dccfbcfd61ef1",
+    "installerCommit": "009685be27cc845040ccccc1613d6d3e3bd1bc64",
+    "metadataExpires": "2026-10-21T23:17:31.5020256Z"
+  },
+  "cdn": {
+    "installerDirectHTTP": 403,
+    "chunksHTTP": 200,
+    "method": "signed-chunk-downloader"
+  }
 }

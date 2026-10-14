@@ -4,6 +4,7 @@ SigmaDrive 0.2.5 — 두 실제 PC 연결·공유 검증 절차
 배포
 GitHub 릴리스: https://github.com/sigmadrive/SigmaDrive-Plugins/releases/tag/client-v0.2.5
 설치 파일: SigmaDrive_0.2.5_x64-setup.exe
+CDN 다운로드 도우미: SigmaDrive-Download-0.2.5.exe (GitHub 릴리스에서 받기)
 정확한 jsDelivr 커밋 주소, 파일 크기, SHA-256은 위 릴리스의 안내와 SHA256SUMS.txt를 기준으로 확인한다.
 이 문서는 공개 배포용이다. 계정, 개인키, 복구 키, 실제 초대 코드, 사용자 폴더 경로를 포함하지 않는다.
 
@@ -24,7 +25,14 @@ GitHub 릴리스: https://github.com/sigmadrive/SigmaDrive-Plugins/releases/tag/
   서명된 배포 메타데이터 검증은 Windows 발행자 서명과 다르다. 보안 정책상 unsigned 실행이 금지된 PC에는 설치하지 않는다.
 
 1. 설치와 로그인
-1) GitHub 또는 jsDelivr에서 설치 파일을 저장한다. PowerShell에서 다음 명령으로 해시를 확인한다.
+1) GitHub 릴리스에서 설치 파일을 직접 받거나, CDN 다운로드 도우미를 받아 실행한다.
+   도우미는 내장된 신뢰 루트와 서명 메타데이터를 먼저 검사하고 jsDelivr의 5개 조각을 받아 설치 파일을 도우미 옆에 저장한다.
+   진행률·이번 수신량·재사용 조각·전송 원본을 표시한다. Ctrl+C로 중단 후 다시 실행하면 검증된 조각을 재사용한다.
+   일시적인 전송 실패만 같은 커밋의 GitHub 보조 경로로 전환한다. 서명·해시 오류나 HTTP 403을 우회하지 않는다.
+   jsDelivr의 EXE 직접 요청은 HTTP 403으로 거부됐으므로 CDN에서 EXE 하나를 직접 받는 링크는 제공하지 않는다.
+   도우미는 설치를 자동 실행하지 않는다. 도우미도 Windows 발행자 서명은 없으므로 SHA256SUMS.txt와 먼저 대조한다.
+   이 도우미의 서명 메타데이터 만료는 2026-10-22 08:17:31 KST다. 이후에는 새 도우미를 받거나 GitHub 설치 파일과 공지된 해시를 사용한다.
+   PowerShell에서 설치 파일 해시를 확인한다.
    Get-FileHash -Algorithm SHA256 -LiteralPath "$env:USERPROFILE\Downloads\SigmaDrive_0.2.5_x64-setup.exe"
    파일명이 브라우저에 의해 달라졌다면 실제 저장 경로를 사용한다. 해시가 다르면 실행하지 않는다.
 2) 기존 SigmaDrive 설치가 없는 PC에 설치하고 실행한다. 기본 설치 위치는 %LOCALAPPDATA%\Programs\SigmaDrive다.
