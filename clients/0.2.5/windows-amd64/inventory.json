@@ -1,0 +1,33 @@
+{
+  "version": "0.2.5",
+  "platform": "windows-amd64",
+  "type": "first-install-test",
+  "authenticode": false,
+  "chunks": {
+    "schema": "sigmadrive.chunks/v1",
+    "chunks": [
+      {
+        "sha256": "b2d7830570a51a081c1d80f5adf8a8c5a318188681ea2f5dcd35c3a4b5776c1b",
+        "size": 4194304
+      },
+      {
+        "sha256": "0db9c7c552199a5b1a457f7182d9510e0065086b456ae20f2162b63b6f1d02e0",
+        "size": 4194304
+      },
+      {
+        "sha256": "0284889218eec2bd85de8ffcdc094a209506f0d62a527a63444ea72763d71836",
+        "size": 4194304
+      },
+      {
+        "sha256": "8998f21d74e39a71f6498d1a56b3c5e792892753821f75a2f0a8ccaceef56c7a",
+        "size": 4194304
+      },
+      {
+        "sha256": "24fc09277d98b88608befeeb9ab2cfb22d060591c7a55c217a412231924ebcb9",
+        "size": 914296
+      }
+    ]
+  },
+  "length": 17691512,
+  "sha256": "6350d1345c92b1f1625d0c7e53e2bf93cbcb82355a9c9390380f8c00f2d72509"
+}
