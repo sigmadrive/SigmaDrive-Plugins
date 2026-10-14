@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "kind": "file-processor",
+  "id": "processor-text",
+  "version": "0.1.0",
+  "state": "experimental",
+  "runtime": "native-worker",
+  "contract": "sigma.extract-text/v1",
+  "source": "SigmaDrive internal source; UTF-8 TXT and Markdown processor",
+  "license": "Proprietary SigmaDrive pilot",
+  "bytes": 2744832,
+  "sha256": "e35c9ddd579489a3f958516bcf23d9c0595b5d6aa66a9d333bbb9b60491f1886",
+  "chunks": {
+    "schema": "sigmadrive.chunks/v1",
+    "chunks": [
+      {
+        "sha256": "e35c9ddd579489a3f958516bcf23d9c0595b5d6aa66a9d333bbb9b60491f1886",
+        "size": 2744832
+      }
+    ]
+  }
+}
