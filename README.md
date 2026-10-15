@@ -7,3 +7,5 @@ This is a test release without Windows Authenticode publisher signing. Public pa
 Primary transport: jsDelivr at the immutable release commit. GitHub is the fallback. Older published commits remain available for their signed releases.
 
 [Release downloads and SHA-256](https://github.com/sigmadrive/SigmaDrive-Plugins/releases/tag/client-v0.2.5)
+
+Release snapshots retain only current payload chunks. Older signed releases reference their immutable artifact commits and GitHub release assets; those commits and tags remain intact.
