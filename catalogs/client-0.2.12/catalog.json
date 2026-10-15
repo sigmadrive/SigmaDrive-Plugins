@@ -1,0 +1,43 @@
+[
+  {
+    "target": "stable/windows-amd64/package.bin",
+    "custom": {
+      "schema": 3,
+      "sequence": 13,
+      "version": "0.2.12",
+      "core_version": "0.2.12",
+      "channel": "stable",
+      "os": "windows",
+      "arch": "amd64",
+      "db_compatible": true,
+      "driver_change": false,
+      "artifact_commit": "fa604cc0e9202a1c96965a41c87bcb54ba555680",
+      "format": "tauri-nsis",
+      "chunks": {
+        "schema": "sigmadrive.chunks/v1",
+        "chunks": [
+          {
+            "sha256": "f13cab1d5f65ea94bb0d1875efe4820f59cf530e41eb976e59b9cd1ed76a48e4",
+            "size": 4194304
+          },
+          {
+            "sha256": "4673ce50a92f06a90ba46e964bd30da28cd52c5f0a88095a3be499a8577f1b7d",
+            "size": 4194304
+          },
+          {
+            "sha256": "4437c824c5618f83b9060c5fe4d86336439636a9d21888e92a857eb043433187",
+            "size": 4194304
+          },
+          {
+            "sha256": "f2857a83928addb5f79b5cd5841271859d9960378d20462b036a467e7d7626f1",
+            "size": 4194304
+          },
+          {
+            "sha256": "67c93551bf6d3feb8c7c2cfbc521676bfadbafc4f0c7ed3a455dd7118ead230e",
+            "size": 939631
+          }
+        ]
+      }
+    }
+  }
+]
