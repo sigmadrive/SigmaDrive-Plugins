@@ -1,0 +1,6 @@
+Unmodified official Dokany 2.3.1.1000 Windows x64 MSI.
+Source and release: https://github.com/dokan-dev/dokany/releases/tag/v2.3.1.1000
+Source archive: https://github.com/dokan-dev/dokany/archive/refs/tags/v2.3.1.1000.zip
+SHA256: 69ff8cb37bfec3a75921c85ffd1c6370b50a9ec4ecef2cf3a009d488dcbf5465
+9269248 bytes; Authenticode verified Valid, LEOSAC.
+Original package and licenses unchanged; content addressed transport pieces only.

@@ -1,0 +1,19 @@
+{
+  "schema": "sigmadrive.chunks/v1",
+  "sha256": "69ff8cb37bfec3a75921c85ffd1c6370b50a9ec4ecef2cf3a009d488dcbf5465",
+  "size": 9269248,
+  "chunks": [
+    {
+      "sha256": "cb41f66b9381fcbc579ff0043dc208deea95a9eb9f9ac6e393b362cb4fddea12",
+      "size": 4194304
+    },
+    {
+      "sha256": "70c83e076d395c89bfb1f2f95178b13e348b9e3432030179c61f2cd595722df5",
+      "size": 4194304
+    },
+    {
+      "sha256": "ce42b8d876b15a6e0282e828de0a822931e336cd6b39ef1c8697e31ef1aa20ac",
+      "size": 880640
+    }
+  ]
+}
