@@ -1,0 +1,2 @@
+SigmaDrive 0.2.14 test release
+Transport offline errors retain I/O status. Cold image version verification allows up to 90 seconds, respecting caller cancellation and exact version/hash checks. Public test package; no website promotion.
