@@ -1,0 +1,3 @@
+SigmaDrive transfer-torrent 0.1.0 uses unmodified github.com/anacrolix/torrent v1.61.0 (MPL-2.0). Source: https://github.com/anacrolix/torrent/tree/v1.61.0
+SigmaDrive host adapter limits discovery and routes peers through an authorized local stream. No modifications to upstream torrent source.
+Experimental Windows amd64 plugin. TUF signed payload; no Windows Authenticode signature.
