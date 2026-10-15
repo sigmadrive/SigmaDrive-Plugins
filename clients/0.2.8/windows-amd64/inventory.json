@@ -41,5 +41,15 @@
       "size": 46590464,
       "hash": "6b43342ee8a22c7f1f92912cb0a78eb749c9eae998c28f16b05fc8badbb1e051"
     }
-  ]
+  ],
+  "bootstrapper": {
+    "version": "0.2.8",
+    "file": "SigmaDriveSetup-0.2.8.exe",
+    "bytes": 524288,
+    "sha256": "19edbf7c744d2f59f77b5a8a147fcd992027fb26d665b246fd6edb1d19fc50d3",
+    "payload": "jsDelivr primary; immutable GitHub raw fallback",
+    "authenticode": false,
+    "metadataExpires": "2026-10-22T04:17:28.210318Z"
+  },
+  "artifactCommit": "75c1e75704f366ef430e15ce2d84b99576270c42"
 }
