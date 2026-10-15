@@ -1,0 +1,2 @@
+091d16ca3afa55bf78142fcc6eb1ed778a4487a3284f71e08cba30f1d598327d  SigmaDriveSetup-0.2.6.exe
+fca9e063686f9defbc113adc916a4d6d3bc6da68f0428b394f162c74875fe5c9  SigmaDrive_0.2.6_x64-setup.exe

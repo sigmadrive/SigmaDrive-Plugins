@@ -29,5 +29,27 @@
     ]
   },
   "length": 17690474,
-  "sha256": "fca9e063686f9defbc113adc916a4d6d3bc6da68f0428b394f162c74875fe5c9"
+  "sha256": "fca9e063686f9defbc113adc916a4d6d3bc6da68f0428b394f162c74875fe5c9",
+  "bootstrapper": {
+    "version": "0.2.6",
+    "file": "SigmaDriveSetup-0.2.6.exe",
+    "bytes": 524288,
+    "sha256": "091d16ca3afa55bf78142fcc6eb1ed778a4487a3284f71e08cba30f1d598327d",
+    "payload": "jsDelivr primary; immutable GitHub raw fallback",
+    "authenticode": false,
+    "metadataExpires": "2026-10-22T03:23:26.6142543Z"
+  },
+  "artifactCommit": "5518ed1b79ee4aa25d7d9bd3b2d666c1863160be",
+  "binaries": [
+    {
+      "name": "sigma-drive.exe",
+      "size": 4568064,
+      "hash": "03fcece797d958be6464e6968fa9aa87c6b494a65832dc2db7de0c549c7e0493"
+    },
+    {
+      "name": "sigmad.exe",
+      "size": 46589440,
+      "hash": "86365cd96cb349858a9a57f5f5fe03cbe8e1455461dd981b19d5dc404e7a75a5"
+    }
+  ]
 }
