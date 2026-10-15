@@ -1,0 +1,45 @@
+{
+  "version": "0.2.7",
+  "platform": "windows-amd64",
+  "type": "first-install-test",
+  "authenticode": false,
+  "chunks": {
+    "schema": "sigmadrive.chunks/v1",
+    "chunks": [
+      {
+        "sha256": "1e75b7490547df1292559d388562f1a438b85c6f2e40f55c321fa1e7784912af",
+        "size": 4194304
+      },
+      {
+        "sha256": "d9d3a2c932ad38e58f458e048bf16e2061ae3ed55c406159879c6c813144d6ad",
+        "size": 4194304
+      },
+      {
+        "sha256": "56a2e02a6addb41d6fbd72c5c5bce5150fb16c86d7eb7197d17d06448cd3836d",
+        "size": 4194304
+      },
+      {
+        "sha256": "4692d4670d010e857bf98dacd892b383d6bdb7d4a3318776d87a22efec06335c",
+        "size": 4194304
+      },
+      {
+        "sha256": "06b490b19c281affcd97b49cd702076ae25ef0b934fafec9c8e56ba4bd4861f9",
+        "size": 915862
+      }
+    ]
+  },
+  "length": 17693078,
+  "sha256": "08ae41f83f9697e2c63099fa8f8e5efce04832cb3088b67b035a6bb61561330c",
+  "binaries": [
+    {
+      "name": "sigma-drive.exe",
+      "size": 4568064,
+      "hash": "a450d88185164b5c8804d1c1b32e8b5fab183d92aaaa67dee9e9d7df33622b03"
+    },
+    {
+      "name": "sigmad.exe",
+      "size": 46589440,
+      "hash": "cbc48027f46a8ec48bc0d1ef2d54e555874015879240475e7d0a0802d3d7e755"
+    }
+  ]
+}
