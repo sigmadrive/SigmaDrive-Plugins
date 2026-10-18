@@ -1,0 +1,47 @@
+[
+  {
+    "path": "github.com/Microsoft/go-winio",
+    "version": "v0.6.2",
+    "sum": "h1:F2VQgta7ecxGYO8k3ZZz3RS8fVIXVxONVUPlNERoyfY="
+  },
+  {
+    "path": "github.com/gofrs/flock",
+    "version": "v0.13.0",
+    "sum": "h1:95JolYOvGMqeH31+FC7D2+uULf6mG61mEZ/A8dRYMzw="
+  },
+  {
+    "path": "github.com/gorilla/websocket",
+    "version": "v1.5.0",
+    "sum": "h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc="
+  },
+  {
+    "path": "golang.org/x/net",
+    "version": "v0.57.0",
+    "sum": "h1:K5+3DljvIuDG9/Jv9rvyMywYNFCQ9RSUY6OOTTkT+tE="
+  },
+  {
+    "path": "golang.org/x/sys",
+    "version": "v0.47.0",
+    "sum": "h1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs="
+  },
+  {
+    "path": "golang.org/x/text",
+    "version": "v0.41.0",
+    "sum": "h1:vz/seA0lnX87Othu2f/0L24RcgrXD9/YFTSuGjj3rH8="
+  },
+  {
+    "path": "google.golang.org/genproto/googleapis/rpc",
+    "version": "v0.0.0-20260715232425-e75dac1f907d",
+    "sum": "h1:Jkpk39hlTZOIp3RbfvNX9R8Hv+Sw0X89nlU/xFOErsc="
+  },
+  {
+    "path": "google.golang.org/grpc",
+    "version": "v1.84.0-dev.0.20260723093437-b6eac429d7b6",
+    "sum": "h1:HfjjkdGIa8u9sP9EW5WCygy0kQDuTI/Tax4j//t24Fo="
+  },
+  {
+    "path": "google.golang.org/protobuf",
+    "version": "v1.36.11",
+    "sum": "h1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE="
+  }
+]
