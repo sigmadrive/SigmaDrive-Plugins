@@ -1,0 +1,8 @@
+{
+  "product": "sigmadrive.flutter.rust",
+  "version": "0.3.0",
+  "bytes": 562176,
+  "sha256": "7fbe0fce94d8b6a7eb7bcb0eb7a36f094a97d35f82a2fe49628ba0c1dba6d8cc",
+  "channel": "rust-windows-stable",
+  "releaseState": "preview-physical-acceptance-pending"
+}
