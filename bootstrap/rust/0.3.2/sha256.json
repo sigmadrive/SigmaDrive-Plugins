@@ -1,0 +1,10 @@
+{
+  "version": "0.3.2",
+  "bytes": 562176,
+  "sha256": "bf46e49417918e6994d0072274a158528e853f7890581f321a8a28f318c33d15",
+  "product": "sigmadrive.flutter.rust",
+  "architecture": "windows-amd64",
+  "physicalAcceptance": "PENDING",
+  "preview": true,
+  "fix": "Correct private installer directory allowlist"
+}
