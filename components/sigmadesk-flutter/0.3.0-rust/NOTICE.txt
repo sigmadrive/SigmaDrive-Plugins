@@ -1,0 +1,5 @@
+SigmaDesk Flutter/Rust engine 0.3.0-rust
+Fork of https://github.com/rustdesk/rustdesk
+AGPL-3.0; corresponding modified source is sigmadesk-corresponding-source.zip in this immutable version path.
+Source SHA256 b8eb665d8eb71e8aebb00491e5fd89d78ef5b00a31972bd3c3461aaae3ca2f09
+Experimental Rust Preview integration; screen/input acceptance is separate.
