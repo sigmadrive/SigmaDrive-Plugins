@@ -1,0 +1,1 @@
+Compressed transport objects for the existing Rust Windows client distribution. The reconstructed package includes applicable component licenses and notices under data/licenses and Flutter assets notices. The existing upstream corresponding-source offer remains applicable. This snapshot changes no component licensing.
