@@ -1,0 +1,8 @@
+SigmaDesk Flutter/Rust engine 0.3.2-rust
+AGPL-3.0; see LICENCE in sigmadesk-corresponding-source.zip.
+Source SHA256 6e66566583a3a072a19ba269de0e23cc1fdc8361e82ff451e9e877c71a1e7691
+Source baseline RustDesk fada664df7a294d1d1a9ca3e7cd3637069122f17 / hbb_common 229b904508364c8997aad0fb5af57effac859f60.
+The two reviewed fast-register source deltas were added to the pinned isolated engine source.
+The Rust DLL and Flutter release UI bundle were freshly built in a private independent source copy.
+Fast registration remains default off. No authority, key, lease, relay observer or signed-delivery contract was changed.
+Experimental integration; runtime, screen/input and performance acceptance is separate.
