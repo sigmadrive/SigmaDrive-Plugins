@@ -1,1 +1,0 @@
-0261296b73d435951fa3fce26a45a3a85cbcc17646c542ac5cac0bd67438b1fa  sigma-share-s3.exe
