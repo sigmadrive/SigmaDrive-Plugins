@@ -1,0 +1,11 @@
+SigmaDrive0.3.25/Flutter3025 source offer
+
+The176 product source files match source-manifest.json. Run BUILD.cmd from an x64 VisualStudio NativeTools prompt with the recorded Rust/Flutter toolchain. Cargo.lock and pubspec.lock pin dependencies; an offline build additionally requires matching package caches. No signing keys, local accounts, authDB or user configuration are included.
+
+The shipped updater helper is sigmadrive_flutter.exe in --sigma-update-worker mode with the newly built sigmadrive_core.dll, not a second helper executable. The stable SigmaDrive.exe bootstrap is installed separately and is not in the update payload.
+
+For the exact shipped notice data, copy the fresh Flutter Release directory to a source-local .runtime payload, run scripts/Stage-WindowsRuntime.ps1, then _release/Stage-License-Data.ps1 -Payload <fresh payload>. This restores the exact shipped data/licenses tree instead of relying on which optional crates happen to be cached. LICENSE-SUPPLEMENTS.json pins9 Windows dependencies to5 exact upstream commits and13 copyright/license texts omitted from their crate archives. Each file has a SHA256; the actual payload rust-index.json also records the per-crate repository/commit/URL/text SHA.
+
+Create SDPKG1 with cargo run --release --locked --manifest-path distribution/Cargo.toml --bin pack -- <absolute fresh payload> <new absolute package> 0.3.25. Create v2 gzip CDC chunks with node scripts/rust-release.mjs chunks <package> <fresh chunk dir>. Do not invoke init/sign/publication commands or reuse a published version/sequence.
+
+Compiler/linker/ZIP timestamps and toolchain differences can change binary bytes. This offer supplies corresponding source and exact shipped license data, not a bit-identical binary reproducibility assertion. This source archive is a separate offer; it is not inside client.package.
