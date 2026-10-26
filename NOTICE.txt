@@ -1,0 +1,1 @@
+Compressed transport objects for the signed Rust Windows client distribution. The reconstructed package contains applicable component licenses and notices. This index changes no license or source offer.
