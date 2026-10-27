@@ -1,9 +1,0 @@
-{
-  "version": "0.3.1",
-  "bytes": 562176,
-  "sha256": "a07ccb3eed5eac7c09b201f04a7db9e1b25094501030c76430037e5ca4bfd3cf",
-  "product": "sigmadrive.flutter.rust",
-  "architecture": "windows-amd64",
-  "physicalAcceptance": "PENDING",
-  "preview": true
-}
