@@ -1,0 +1,3 @@
+SigmaDesk 0.3.5-rust derived from RustDesk, AGPL-3.0.
+Exact accompanying source SHA256 65cd6883b413e6b9107f6a309dee7fd663492f658fe239cedd8f113e3405ab48.
+Opt-in WGC capture fallback. Runtime/performance acceptance pending.
