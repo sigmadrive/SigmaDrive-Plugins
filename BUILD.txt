@@ -1,0 +1,36 @@
+SigmaDrive0.3.28 / Flutter3028 corresponding source and exact shipped notice data
+
+Product source count and byte identities come from _release/source-manifest.json,
+not a prior release's file count. BUILT-INPUTS/BUILD-VERIFICATION record actual
+current compiler inputs, locked dependencies and each observed test run. Raw
+build logs remain local operations evidence; their SHA and result counts are
+preserved, including separately identified failed development attempts.
+
+Run BUILD.cmd with the recorded VisualStudio/Rust/Flutter toolchain. Cargo.lock
+and pubspec.lock pin dependencies. Offline rebuilds require the matching package
+caches. Third-party registries are resolved through Cargo.lock checksums; the
+locally modified OneDrive service source is included in vendor. No user accounts,
+authDB, recovery keys or signing keys are part of this offer.
+
+The shipped updater worker is the newly built sigmadrive_flutter.exe in
+--sigma-update-worker mode with its newly built sigmadrive_core.dll. A separate
+old helper executable is not copied into the runtime package.
+
+For exact shipped notices, stage a fresh source-local .runtime payload from the
+Flutter Release directory, run scripts/Stage-WindowsRuntime.ps1 and then
+_release/Stage-License-Data.ps1 -Payload <fresh payload>. The companion contains
+the byte-exact shipped license-data tree and actual Windows dependency inventory.
+LICENSE-SUPPLEMENTS preserves exact upstream commit/hash provenance for reused
+repository-level notices. Newly uncovered dependencies must obtain corresponding
+notice data rather than silently borrowing a different version's notices.
+
+The NEW0.3.4-rust engine's exact reviewed corresponding-source ZIP is included
+unchanged in _release/engine-source; its hash and engine manifest identity are
+recorded in BUILT-INPUTS. It is a companion-source artifact, not embedded inside
+the runtime client.package. Its own source package/build/license terms apply.
+
+Create SDPKG1 with distribution/bin pack and immutable v2 gzip CDC chunks with
+scripts/rust-release.mjs chunks. Do not run init/sign/publication operations or
+reuse a published version or signing sequence. The client source and companion
+metadata are not a bit-identical binary reproducibility claim: compiler, linker,
+archive timestamps and toolchains can change binary bytes.
