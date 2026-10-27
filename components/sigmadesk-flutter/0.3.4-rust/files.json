@@ -1,0 +1,531 @@
+{
+  "schema": 1,
+  "entry": "rustdesk.exe",
+  "files": [
+    {
+      "path": "concrt140.dll",
+      "bytes": 374200,
+      "sha256": "54716f0738af891f283d213b5c8d11b25896bb8ee3097d301eae718560cf974e"
+    },
+    {
+      "path": "data/app.so",
+      "bytes": 14123912,
+      "sha256": "23be34cadfb3815d2139a8e465fa9d9e3e2756b3b139c56631efd0bc313f4c4e"
+    },
+    {
+      "path": "data/flutter_assets/AssetManifest.bin",
+      "bytes": 4246,
+      "sha256": "5ff1849d2dfcedb6c994c116105f3b816559e3ce71bee1ec9aca3c265e2d4651"
+    },
+    {
+      "path": "data/flutter_assets/assets/actions_mobile.svg",
+      "bytes": 657,
+      "sha256": "527c6a251e5053ace7e469d2b1080108448ade654a5641a3b8d4052df94a13cf"
+    },
+    {
+      "path": "data/flutter_assets/assets/actions.svg",
+      "bytes": 386,
+      "sha256": "ef6597b20e4578e8a6ddfe62f46a9681a8e4649b132f1f10f9fc5da15018a7c9"
+    },
+    {
+      "path": "data/flutter_assets/assets/address_book.ttf",
+      "bytes": 1792,
+      "sha256": "c725b18176aa78151e013222a9fc9c439a9a9106d6c061e8f617162a80a8b4f7"
+    },
+    {
+      "path": "data/flutter_assets/assets/android.svg",
+      "bytes": 952,
+      "sha256": "3feb445086c26cc0db5153b5501bfa29d7824cb62f287f2217c51d728ce61522"
+    },
+    {
+      "path": "data/flutter_assets/assets/arrow.svg",
+      "bytes": 380,
+      "sha256": "fe040cf78012f519f391e664c55cd3170be59575520995a4bc143d2943fb1d64"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-apple.svg",
+      "bytes": 1365,
+      "sha256": "98583b4cf0dc8afe3b5025fce65f261c2f01264afdbea19b591853e8e93d7fbe"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-auth0.svg",
+      "bytes": 285,
+      "sha256": "65360327073579c1e72626b3dad257913c6653bfc82b1becddd5f49179fa511a"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-default.svg",
+      "bytes": 564,
+      "sha256": "1e555baf5a32c88d5f1e47648c0fdae13e211e6a743632cd68256cd35aa259e2"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-facebook.svg",
+      "bytes": 274,
+      "sha256": "7d05241541ea2ac9a918a5852ace86c06673d8aa54cc02a274c8bc5ff7efa715"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-github.svg",
+      "bytes": 582,
+      "sha256": "699aae703998c04758bc8c90ed9e89baaf7cd3ce9b90f6b261cd18b2e9a0b32f"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-gitlab.svg",
+      "bytes": 684,
+      "sha256": "976be154f07bed12377690ddfe734bf94ff01858f9ce28a0a526db7617130e5e"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-google.svg",
+      "bytes": 846,
+      "sha256": "442e7678b4ba49a4261222bff05e52c9c892d4b37f5403c974f3ecf79007bc4b"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-microsoft.svg",
+      "bytes": 321,
+      "sha256": "45bd7de758b979cb6b8735abb4d1ad8e5e3ed4f6c24a969d6b724fdc413cd1a7"
+    },
+    {
+      "path": "data/flutter_assets/assets/auth-okta.svg",
+      "bytes": 1488,
+      "sha256": "483911dd70639a6c5c20d7c44b26593a7032fd0c61c824646e5692b019d51fdb"
+    },
+    {
+      "path": "data/flutter_assets/assets/call_end.svg",
+      "bytes": 786,
+      "sha256": "a9b2e7de60c87f5289db4eafe78e997a70d76d7a4245d2b2cfa7ccb7ae3605a0"
+    },
+    {
+      "path": "data/flutter_assets/assets/call_wait.svg",
+      "bytes": 746,
+      "sha256": "b6bf409d50255048c0b8e73397190a222a6c26f32326ad654dbebb8794525fb4"
+    },
+    {
+      "path": "data/flutter_assets/assets/chat.svg",
+      "bytes": 690,
+      "sha256": "b59da6aea860332acff94d1b630ee8cc8d2e67aef38227815879e64d7695d3de"
+    },
+    {
+      "path": "data/flutter_assets/assets/chat2.svg",
+      "bytes": 463,
+      "sha256": "04095957aab18a9f44044ddb649444e2fdd9454bf07c79f87d47d3d7ce902033"
+    },
+    {
+      "path": "data/flutter_assets/assets/checkbox-outline.svg",
+      "bytes": 856,
+      "sha256": "b8520bb0397257021199d933bee9e047cf35347fa56fe615cdfba201294f87c0"
+    },
+    {
+      "path": "data/flutter_assets/assets/chevron_up_chevron_down.svg",
+      "bytes": 1352,
+      "sha256": "5b5fd77cd98711d9a4815a761aabec5a97157e4d74eb2cfa61e3b72f527c252c"
+    },
+    {
+      "path": "data/flutter_assets/assets/close.svg",
+      "bytes": 449,
+      "sha256": "19b67ad30d9024bf95714bba11576eb5a04b6950eb9760c987e4b2773e0544ac"
+    },
+    {
+      "path": "data/flutter_assets/assets/device_group.ttf",
+      "bytes": 2012,
+      "sha256": "757071e3671adac7f6fca290259e782ddaf8e5a8381cf14b6984b3f05c67412f"
+    },
+    {
+      "path": "data/flutter_assets/assets/display_switcher.svg",
+      "bytes": 310,
+      "sha256": "d3558a4f9d540c07521710faa03598b6be885ad15ce1375e4d349c8f69011c8a"
+    },
+    {
+      "path": "data/flutter_assets/assets/display.svg",
+      "bytes": 816,
+      "sha256": "e8cbf643fa4c34782a94f401504e77adf2610e0145b3c99013c3d69639aa07d5"
+    },
+    {
+      "path": "data/flutter_assets/assets/dots.svg",
+      "bytes": 507,
+      "sha256": "a99cad2b4112f6c593657783b25abced982cce342866554cd8e37ffc364b50fb"
+    },
+    {
+      "path": "data/flutter_assets/assets/file_transfer.svg",
+      "bytes": 1174,
+      "sha256": "33f79b7d82b7c44a51791f942f12b754f7fdcbbfe6dbcc783af3ac55527edea0"
+    },
+    {
+      "path": "data/flutter_assets/assets/file.svg",
+      "bytes": 588,
+      "sha256": "4a17002f83a6b30239f172f9d7d7c26e3c6ccfa029c22f11af020981a5f41291"
+    },
+    {
+      "path": "data/flutter_assets/assets/folder_new.svg",
+      "bytes": 632,
+      "sha256": "a8672a3dc43ca1db7b9889c6642e43a7bb818af908dda8754b509233003c39d8"
+    },
+    {
+      "path": "data/flutter_assets/assets/folder.svg",
+      "bytes": 452,
+      "sha256": "6a1c84071c3d76e796e06909cb6e338e2d6c07e9784376289234f237711b8b8f"
+    },
+    {
+      "path": "data/flutter_assets/assets/fullscreen_exit.svg",
+      "bytes": 1488,
+      "sha256": "d06c8eb61ecb9b5ff1c1c91f3e29e9b00e812a131e0fd092be441de79c3b65c7"
+    },
+    {
+      "path": "data/flutter_assets/assets/fullscreen.svg",
+      "bytes": 1551,
+      "sha256": "524bfa7c693571d43e298c9a63a1813a4302b9dd40ac34519479a09d21ed08e3"
+    },
+    {
+      "path": "data/flutter_assets/assets/gestures.ttf",
+      "bytes": 8068,
+      "sha256": "195ff53b2eff7718dbaa69e30685d63986d5a1ee6cf3de6090989d880f0e3c5c"
+    },
+    {
+      "path": "data/flutter_assets/assets/home.svg",
+      "bytes": 457,
+      "sha256": "02de1b923b3ae4e15b9027db1db70c32717b72ce6c8b52c46e235df6a768d023"
+    },
+    {
+      "path": "data/flutter_assets/assets/icon.svg",
+      "bytes": 1177,
+      "sha256": "4d6ecc2b45571382576049095435f41576c02e895b8766ef3f300623c35b3488"
+    },
+    {
+      "path": "data/flutter_assets/assets/insecure_relay.svg",
+      "bytes": 746,
+      "sha256": "9cb9c44ff9b003bf0a8254c940eb8835846c977035129cc755704b6d5b3cae0b"
+    },
+    {
+      "path": "data/flutter_assets/assets/insecure.svg",
+      "bytes": 440,
+      "sha256": "b25093ec9bf629995f2ed67603cf10dd98425a318b98c460b9be569aa71a8102"
+    },
+    {
+      "path": "data/flutter_assets/assets/kb_layout_iso.svg",
+      "bytes": 3064,
+      "sha256": "fcd844ad1f7b360edef92f1f18a9dd42a87bf436c5a3e2d4d5bcc88bc2da638b"
+    },
+    {
+      "path": "data/flutter_assets/assets/kb_layout_not_iso.svg",
+      "bytes": 2905,
+      "sha256": "58ca6bbc9f5da46610f5ee7d948d6027458b8e1421422c9acfe43002cb50d513"
+    },
+    {
+      "path": "data/flutter_assets/assets/keyboard_mouse.svg",
+      "bytes": 5532,
+      "sha256": "926010c7049e648ae1c9f0cf87c8b5342da0f5f701db1420629fefdad1c073cf"
+    },
+    {
+      "path": "data/flutter_assets/assets/linux.svg",
+      "bytes": 1361,
+      "sha256": "ed618b2fc45b47cedd01d63ff3e725158f7287b163b1119cf4992fd524fc6dc4"
+    },
+    {
+      "path": "data/flutter_assets/assets/mac.svg",
+      "bytes": 492,
+      "sha256": "99f529a74e1e8cb086cd338864dbe334a1fa758c5b53faeca2ebb3b57caeb1bf"
+    },
+    {
+      "path": "data/flutter_assets/assets/message_24dp_5F6368.svg",
+      "bytes": 277,
+      "sha256": "11c36e1555a8f74aeca3de9d259122d51b6206b8ada4872e3259bcd8e6a994f2"
+    },
+    {
+      "path": "data/flutter_assets/assets/more.ttf",
+      "bytes": 1620,
+      "sha256": "54d71ef06045813df9227bd03e97a082c4bf22def1483e8dd5343391508d5740"
+    },
+    {
+      "path": "data/flutter_assets/assets/peer_searchbar.ttf",
+      "bytes": 1940,
+      "sha256": "28be41836cefbe1f6f59d2b17d58bd944923285e6c8b9e574e6ec7d7643873d9"
+    },
+    {
+      "path": "data/flutter_assets/assets/pinned.svg",
+      "bytes": 621,
+      "sha256": "db10b9be0bd09d2a70ccabd1be2145d334ec2ccf135e10058f4e6a628b900c0d"
+    },
+    {
+      "path": "data/flutter_assets/assets/rec.svg",
+      "bytes": 2970,
+      "sha256": "7b8b348d37bc747db1b78f5ad1f312ac1ee2f7af7ebd9a10d05c41cd9eabcd18"
+    },
+    {
+      "path": "data/flutter_assets/assets/record_screen.svg",
+      "bytes": 1763,
+      "sha256": "4f8461b4811429f5080acfe3514f9c8cc75caa968e1ee29e5334eff3c6e575bd"
+    },
+    {
+      "path": "data/flutter_assets/assets/refresh.svg",
+      "bytes": 637,
+      "sha256": "c82401190b54604d878b2c418e54d629369efe77b4ae5be0da76b02c0a541b65"
+    },
+    {
+      "path": "data/flutter_assets/assets/scam.png",
+      "bytes": 642146,
+      "sha256": "73b10db88c45da3604b2c10492d60452f8d4efcaaf31f953ccd9ee8ecaee0801"
+    },
+    {
+      "path": "data/flutter_assets/assets/screen.svg",
+      "bytes": 355,
+      "sha256": "c25d47a1d34d258629d1826dba784ee6092b705cf328260afa44f4809f0df391"
+    },
+    {
+      "path": "data/flutter_assets/assets/search.svg",
+      "bytes": 566,
+      "sha256": "b7868a196030ea2f7f15dc954057b57f3a80865a92432249505a059b31bbafb5"
+    },
+    {
+      "path": "data/flutter_assets/assets/secure_relay.svg",
+      "bytes": 754,
+      "sha256": "1d3be44539e7e1afb79f29359b9dd451e714fd94b9acc382997b749af156a213"
+    },
+    {
+      "path": "data/flutter_assets/assets/secure.svg",
+      "bytes": 335,
+      "sha256": "74082330afa95c3f2c1220efb7a38e420243c7b2cec97091073abe7e199cb2a9"
+    },
+    {
+      "path": "data/flutter_assets/assets/tabbar.ttf",
+      "bytes": 2288,
+      "sha256": "a17ca0a8f7d5aa5ea3f6380f3a282b98b3d66135bb0cee5d431082f560030db8"
+    },
+    {
+      "path": "data/flutter_assets/assets/transfer.svg",
+      "bytes": 527,
+      "sha256": "b0668dbf64e68e88860032eb6510daf5018aef02138d4c13ce544b817fbdb689"
+    },
+    {
+      "path": "data/flutter_assets/assets/trash.svg",
+      "bytes": 534,
+      "sha256": "cbd53c61f856910fb53b8e184f5aa72f6c356979c047578563461c4559ad6355"
+    },
+    {
+      "path": "data/flutter_assets/assets/unpinned.svg",
+      "bytes": 526,
+      "sha256": "5a9e5eaf50ddb4505279fc6c89c9d63f623e5e7423cc40f7d088e2b36c3e4f4c"
+    },
+    {
+      "path": "data/flutter_assets/assets/voice_call_waiting.svg",
+      "bytes": 768,
+      "sha256": "9fdc429170ecebd5f8aaafde07b20f5a63e9029164c8f857b51b32b39e3330e6"
+    },
+    {
+      "path": "data/flutter_assets/assets/voice_call.svg",
+      "bytes": 2195,
+      "sha256": "66678adc66d724ca25088ffea6508c5757b5a0012e39a78a45463cced52852c1"
+    },
+    {
+      "path": "data/flutter_assets/assets/win.svg",
+      "bytes": 192,
+      "sha256": "0ef23580fc65eb8e151e0d2744db1525d8d54258fc5afc51e2719a7e2a5335f6"
+    },
+    {
+      "path": "data/flutter_assets/FontManifest.json",
+      "bytes": 483,
+      "sha256": "068f1cc96816fab157a6813ce233731e46bf661ad84d0018381fb58b19396886"
+    },
+    {
+      "path": "data/flutter_assets/fonts/MaterialIcons-Regular.otf",
+      "bytes": 21352,
+      "sha256": "1414e37a48356e28fdb0ebae0493ea8a52a12a262f3824a404d3fba1807c3e91"
+    },
+    {
+      "path": "data/flutter_assets/NativeAssetsManifest.json",
+      "bytes": 45,
+      "sha256": "9548a31e4a048135c1d94f919328bfb62ae2c7bb3cab96557c7941daa97776cb"
+    },
+    {
+      "path": "data/flutter_assets/NOTICES.Z",
+      "bytes": 128216,
+      "sha256": "68b8788ef4c780fdb0aad436909073a5fb7a064646657f6c18b6c9f8d2c045d7"
+    },
+    {
+      "path": "data/flutter_assets/packages/dash_chat_2/assets/placeholder.png",
+      "bytes": 5660,
+      "sha256": "17e85113e43a4ddba198adf0bdc7502340765782c9d2f85c43e6516e9f395b64"
+    },
+    {
+      "path": "data/flutter_assets/packages/dash_chat_2/assets/profile_placeholder.png",
+      "bytes": 36073,
+      "sha256": "4064371da447aa1fa2d15b63b676bd4c8adf4db3f516f8ed604cc92dcddcb6ba"
+    },
+    {
+      "path": "data/flutter_assets/packages/flex_color_picker/assets/opacity.png",
+      "bytes": 207,
+      "sha256": "8f40db314a0a7eab3ebc1817b78547496fbed922203783a1a8a4adb2afda0976"
+    },
+    {
+      "path": "data/flutter_assets/packages/wakelock_plus/assets/no_sleep.js",
+      "bytes": 13344,
+      "sha256": "dce4eef0b197b640ad6aaab2228ee1ee7dccf8bd6d6b5de5484dd1bd16430a78"
+    },
+    {
+      "path": "data/flutter_assets/packages/window_manager/images/ic_chrome_close.png",
+      "bytes": 298,
+      "sha256": "70fe0130bbbd928d04cd33a49ecde422ec54fd748b7a4e983f4e31be6e73f5f5"
+    },
+    {
+      "path": "data/flutter_assets/packages/window_manager/images/ic_chrome_maximize.png",
+      "bytes": 271,
+      "sha256": "93f2ed012ec01288b78ad4816ef254261e9ff25e8a9858359b45431c9a5de5f4"
+    },
+    {
+      "path": "data/flutter_assets/packages/window_manager/images/ic_chrome_minimize.png",
+      "bytes": 166,
+      "sha256": "0976edbb9977136544af17de125f345a41065694de92036d9365817ea6d8f05a"
+    },
+    {
+      "path": "data/flutter_assets/packages/window_manager/images/ic_chrome_unmaximize.png",
+      "bytes": 366,
+      "sha256": "3d375930c514ec2ebc0603ad1e1398b4daf458951042a97232d16f17e1c9603b"
+    },
+    {
+      "path": "data/flutter_assets/shaders/ink_sparkle.frag",
+      "bytes": 21856,
+      "sha256": "1fe8436a743884cb65078fe8c7b38e18f5365f2a2961270916f426fd13c604af"
+    },
+    {
+      "path": "data/flutter_assets/shaders/stretch_effect.frag",
+      "bytes": 17616,
+      "sha256": "bc7599dbbbaab310efe41520574138d21fb18a88c8fe4495ed79315309336f6f"
+    },
+    {
+      "path": "data/icudtl.dat",
+      "bytes": 864880,
+      "sha256": "325a86063d26334c2eabe1743cea073b612540fbf3d8fc2ef0b5708e3763a8c7"
+    },
+    {
+      "path": "data/licenses/microsoft-vc-runtime/NOTICE.txt",
+      "bytes": 627,
+      "sha256": "1edb5c3f413d72c0b2a1e58166259002bfdfd468c5ca5ba66d6609161f3b8921"
+    },
+    {
+      "path": "data/licenses/microsoft-vc-runtime/provenance.json",
+      "bytes": 2268,
+      "sha256": "a9096f595c63b0386d12a8f5e5e63c54bb44b65a82aca12135764f1b4226e22c"
+    },
+    {
+      "path": "data/licenses/SigmaDesk-AGPL-3.0.txt",
+      "bytes": 35184,
+      "sha256": "6f1e622c82a380075843bb084a7ec3b1f1d12a4a02526d75e78b0924a860aa75"
+    },
+    {
+      "path": "data/licenses/SigmaDesk-NOTICE.txt",
+      "bytes": 312,
+      "sha256": "a1b22a577f9d7eb59b2d80cdd1e84a444de4a111b29dcc3cc0b388b203e36c00"
+    },
+    {
+      "path": "desktop_drop_plugin.dll",
+      "bytes": 331264,
+      "sha256": "4f939630be9e5d2d96d0bbbfeb7ae53f3ed29f1f18fe630410f7592fc53053e7"
+    },
+    {
+      "path": "desktop_multi_window_plugin.dll",
+      "bytes": 404480,
+      "sha256": "d6b66a0e71bc6d6bf803f404b64b5c6559a97a5eb565bc0ea617391ac2345a63"
+    },
+    {
+      "path": "file_selector_windows_plugin.dll",
+      "bytes": 359936,
+      "sha256": "4a546a3d1481bb814a38e2bfcaafe0c08f1f9f3c633567cb77c37a644a70115a"
+    },
+    {
+      "path": "flutter_custom_cursor_plugin.dll",
+      "bytes": 321536,
+      "sha256": "5eef0d3f4f7d1f59767cbd42a93db3aa47dfd01ebfa5be6643adeb84cf278591"
+    },
+    {
+      "path": "flutter_gpu_texture_renderer_plugin.dll",
+      "bytes": 355328,
+      "sha256": "12bcde49d8ed1a5f1d5991deff6961a20e77415c40c870e213ee5c70b1eacba5"
+    },
+    {
+      "path": "flutter_windows.dll",
+      "bytes": 21274112,
+      "sha256": "7b03815958c49d72385be497fbd0eb1bb2ae27d24989d6c9aee83eafbd93e9d3"
+    },
+    {
+      "path": "librustdesk.dll",
+      "bytes": 35165184,
+      "sha256": "afff35e94ada607bcb92e8907ba36cf003a9b11333d4640ec0052e2d268862c8"
+    },
+    {
+      "path": "msvcp140_1.dll",
+      "bytes": 35768,
+      "sha256": "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982"
+    },
+    {
+      "path": "msvcp140_2.dll",
+      "bytes": 274872,
+      "sha256": "d50d7883f20d1dc6191768d3746f52dd9cac89c346ffaed5be1f110c2f34a838"
+    },
+    {
+      "path": "msvcp140_atomic_wait.dll",
+      "bytes": 57792,
+      "sha256": "3d0cbfaa1bf3eecf5a3f4491d2960ee803cb994f30292c6adc4a07c498f60e2b"
+    },
+    {
+      "path": "msvcp140_codecvt_ids.dll",
+      "bytes": 31160,
+      "sha256": "8a65c7596ef2e6938731f5a1058e7e40145b6d97967cc649231a076b9a608d78"
+    },
+    {
+      "path": "msvcp140.dll",
+      "bytes": 643512,
+      "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca"
+    },
+    {
+      "path": "rustdesk.exe",
+      "bytes": 366080,
+      "sha256": "bc9c3f9a3839ac5cf381ce06a795121ec94cbaa34a346cf06c4758ff64c682b4"
+    },
+    {
+      "path": "screen_retriever_plugin.dll",
+      "bytes": 595456,
+      "sha256": "3e715f2ce9deb4a4a3cfb02509921369bd1e25aaa8973424e4f726f17c68a28d"
+    },
+    {
+      "path": "texture_rgba_renderer_plugin.dll",
+      "bytes": 329728,
+      "sha256": "9a1d43d743f392d73a08496917d29d2bf7a811f0aa74779c403fa7ae42de22e8"
+    },
+    {
+      "path": "uni_links_desktop_plugin.dll",
+      "bytes": 597504,
+      "sha256": "20334fbd369a1750950e7df6a16b404f49ba4ea20a0afa3bd00970967b9be236"
+    },
+    {
+      "path": "url_launcher_windows_plugin.dll",
+      "bytes": 336384,
+      "sha256": "bcb7567a736f5d5012a595bf5b1943b9c68e49e8c2fd0360887c3ab081fb12c0"
+    },
+    {
+      "path": "vccorlib140.dll",
+      "bytes": 350648,
+      "sha256": "09f93d5ff96ae09767f3e1af3cdd43a5a58f2598654fc63089429bb6f9f4737f"
+    },
+    {
+      "path": "vcruntime140_1.dll",
+      "bytes": 50112,
+      "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+    },
+    {
+      "path": "vcruntime140_threads.dll",
+      "bytes": 38840,
+      "sha256": "40f39e8cee5f5a531b4010e18b807e8fe265b908dc58f959ecb7ebc6ea6cb11a"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "bytes": 178616,
+      "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+    },
+    {
+      "path": "window_manager_plugin.dll",
+      "bytes": 627200,
+      "sha256": "90163adf622f9cf5552efe33ea7202202c8c86cd58b0a5462ee71f5cc3ae0429"
+    },
+    {
+      "path": "window_size_plugin.dll",
+      "bytes": 593920,
+      "sha256": "ddc4119954f12fc2be420367b64ba3c273e44ad502cac91ca35159b270a01d56"
+    }
+  ]
+}
