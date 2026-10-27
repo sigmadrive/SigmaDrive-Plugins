@@ -1,21 +1,14 @@
-# SigmaDrive protocol plug-in artifacts
+# SigmaNode / SigmaDrive Rust Windows0.3.30 immutable wire snapshot
 
-This public repository is the source for version-pinned Statically URLs:
+Approved package SHA256 b764db38102d9c8bca46a2d454e7f7c2115e38f32d1e77ee6c73f34c0f1f9686; 71887362 bytes; manifest 2c023a53fce7fbb7a051044b42aaf7ccbd2706730bcdc029ce34b22dd4a2405d.
+The existing signed Rust stable catalog is the security authority. This retained tree is informational, contains compressed content objects only, and executes no payload or installer.
 
-`https://cdn.statically.io/gh/sigmadrive/SigmaDrive-Plugins@<tag>/<path>`
+Corresponding source and build inputs (858 files; separate companion offer):
+- [Source ZIP via jsDelivr](https://cdn.jsdelivr.net/gh/sigmadrive/SigmaDrive-Plugins@234d4dd1eb919d40429ff0d828eece30e6ff5be9/source.zip)
+- [Source ZIP via GitHub](https://raw.githubusercontent.com/sigmadrive/SigmaDrive-Plugins/234d4dd1eb919d40429ff0d828eece30e6ff5be9/source.zip)
+- [Build instructions](https://cdn.jsdelivr.net/gh/sigmadrive/SigmaDrive-Plugins@234d4dd1eb919d40429ff0d828eece30e6ff5be9/BUILD.txt)
+- [Exact source manifest](https://cdn.jsdelivr.net/gh/sigmadrive/SigmaDrive-Plugins@234d4dd1eb919d40429ff0d828eece30e6ff5be9/source-manifest.json)
 
-## Module file contract
-
-Each optional worker is versioned independently and published as a standalone OS/CPU-specific executable. The artifact contract, probe interface, runtime behavior, trust requirements, and current limitations are in [`plugins/share-s3/README.md`](plugins/share-s3/README.md). The current S3 target is `plugins/share-s3/0.1.0/windows-amd64/sigma-share-s3.exe`; its descriptor and checksum sit beside it. The TUF target mirror is under `targets/stable/windows-amd64/components/share-s3.exe`.
-
-Statically is the primary binary origin. The SigmaDrive client may use the exact same tag-pinned GitHub raw file as a secondary origin if the CDN download fails. The GitHub copy is not a separate trust source: client installation still requires SigmaDrive's installed TUF trust root and signed target metadata.
-
-## Experimental S3 artifact
-
-`poc/share-s3/0.1.0/windows-amd64/sigma-share-s3.exe` is the original experimental Windows x64 delivery test. The versioned module path above is the same PoC build packaged using the agreed module contract; neither is a stable or generally supported product release. It was built from the private SigmaDrive workspace; the small, independently buildable public source package and license review are still pending.
-
-The worker implements the read-only S3-compatible folder listing and file-read path. Its separate-origin local PoC passed an integrity check, TLS 1.3/SigV4 reads, a 950,272-byte file hash check, write rejection, and shutdown checks. This artifact's CDN download test only verifies delivery bytes; it does not make this file trusted by SigmaDrive clients.
-
-SHA-256: `0261296b73d435951fa3fce26a45a3a85cbcc17646c542ac5cac0bd67438b1fa`
-
-Do not use this experimental artifact for production data. Production installation requires the SigmaDrive client trust root and signed TUF metadata, which are not published in this proof-of-concept directory.
+Source ZIP SHA256: 7bbbf662905420a84bd9a6c314cbf7d41eec9efacbd0edd95534c1b9e02f2a2a; 20205382 bytes.
+Retained source ref: refs/heads/codex/rust-empty-frame-source-20261028-7bbbf6629054; immutable commit: 234d4dd1eb919d40429ff0d828eece30e6ff5be9.
+Applicable source and component licenses remain in force; this does not grant remote access.
